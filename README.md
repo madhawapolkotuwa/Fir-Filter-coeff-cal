@@ -31,10 +31,10 @@
 ```
  ./FIR_fiter_coeff_cal
  (compiled C program with math.h library)
- if gcc compliler didi not install on your linux os
+ if gcc compliler did not installed on your linux os
  first install the GCC Compiler 
- Perform the steps below to install the GCC Compiler linux:- $ sudo apt install build-essential
-                                                             $ sudo apt-get install manpages-dev                                                          
+ Perform the steps this to install the GCC Compiler :- $ sudo apt install build-essential
+                                                       $ sudo apt-get install manpages-dev                                                          
 ```                                                            
 
 # Ex 1 :-> (Lowpass hann window Fs=100 and order = 128th) lowpass Fc = 2.2Hz
