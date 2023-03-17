@@ -20,7 +20,8 @@
    9. BlackmanNuttall            
    10. BlackmanHarris            
    11. FlatTop                   
-   12. Kiser                      
+   12. Kiser   
+                   
 ###################################################################################################
 # How to Run 
 ###################################################################################################
@@ -28,7 +29,7 @@
 ###################################################################################################
 # Linux users open the terminal in files location and type (compiled C program with math.h library)
 ```
- ~/FIR_fiter_coeff_cal
+ ./FIR_fiter_coeff_cal
  (if gcc compliler didi not install on your linux os
  first install the GCC Compiler 
  Perform the steps below to install the GCC Compiler linux:- $ sudo apt install build-essential
@@ -46,8 +47,9 @@ enter the filter type window Fs order= lowpass hann 100 128
 ```
 enter the filter type window Fs order= highpass blackman 100 64 
 enter the highpass frequency fc = 10
-![Highpass](https://user-images.githubusercontent.com/32560614/225820154-a4728821-491a-4a94-a081-e8a46ffa3c89.png)
 ```
+![Highpass](https://user-images.githubusercontent.com/32560614/225820154-a4728821-491a-4a94-a081-e8a46ffa3c89.png)
+
 # Ex 3 :-> (Bandpass BlackmanNuttall window Fs=200 and order = 84th) passband [fc1  fc2] = 2.2Hz - 4.4Hz
 ```
 enter the filter type window Fs order= bandpass blackmannuttall 200 84 
