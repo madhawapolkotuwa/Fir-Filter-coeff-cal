@@ -39,8 +39,8 @@
 #                                                             
 #
 # Ex 1 :-> (Lowpass hann window Fs=100 and order = 128th) lowpass Fc = 2.2Hz
-enter the filter type window Fs order= lowpass hann 100 128 \n
-enter the lowpass frequency  fc = 2.2
+#enter the filter type window Fs order= lowpass hann 100 128
+#enter the lowpass frequency  fc = 2.2
 ![Lowpass](https://user-images.githubusercontent.com/32560614/225819842-d453a4bf-d19d-478c-80d2-1945d1fb45ef.png)
 
 # Ex 2 :-> (Highpass blackman window Fs=100 and order = 64th) highpass Fc=10Hz
