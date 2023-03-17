@@ -1,49 +1,47 @@
-##################################################################################################
 # Fir-Filter-coeff-cal
 # Fir Filter Coefficient calculation for Embeded programs
-##################################################################################################
 # Compiler gcc
-##################################################################################################
+
 # Filter types
-#   1. Lowpass
-#   2. Highpass
-#   3. Bandpass
-#   4. Bandstop
-##################################################################################################
+   1. Lowpass
+   2. Highpass
+   3. Bandpass
+   4. Bandstop
+
 # Window types //Reference (https://en.wikipedia.org/wiki/Window_function)
-##################################################################################################
-#   1. Rectangular    
-#   2. Triangular                 
-#   3. Welch                      
-#   4. Sine                       
-#   5. Hann                       
-#   6. Hamming                    
-#   7. Blackman                   
-#   8. Nuttall                    
-#   9. BlackmanNuttall            
-#   10. BlackmanHarris            
-#   11. FlatTop                   
-#   12. Kiser                      
+   1. Rectangular    
+   2. Triangular                 
+   3. Welch                      
+   4. Sine                       
+   5. Hann                       
+   6. Hamming                    
+   7. Blackman                   
+   8. Nuttall                    
+   9. BlackmanNuttall            
+   10. BlackmanHarris            
+   11. FlatTop                   
+   12. Kiser                      
 ###################################################################################################
 # How to Run 
 ###################################################################################################
 # Open FIR_filter_coeff.exe for windows users 
 ###################################################################################################
-
 # Linux users open the terminal in files location and type (compiled C program with math.h library)
-# ~/FIR_fiter_coeff_cal
-# (if gcc compliler didi not install on your linux os
-# first install the GCC Compiler 
-# Perform the steps below to install the GCC Compiler linux:- $ sudo apt install build-essential
-#                                                             $ sudo apt-get install manpages-dev
-###################################################################################################                                                             
-#                                                             
-#
+'''
+ ~/FIR_fiter_coeff_cal
+ (if gcc compliler didi not install on your linux os
+ first install the GCC Compiler 
+ Perform the steps below to install the GCC Compiler linux:- $ sudo apt install build-essential
+                                                             $ sudo apt-get install manpages-dev                                                          
+'''                                                            
+
 # Ex 1 :-> (Lowpass hann window Fs=100 and order = 128th) lowpass Fc = 2.2Hz
-*enter the filter type window Fs order= lowpass hann 100 128
+
+'''
+enter the filter type window Fs order= lowpass hann 100 128
 !enter the lowpass frequency  fc = 2.2
 ![Lowpass](https://user-images.githubusercontent.com/32560614/225819842-d453a4bf-d19d-478c-80d2-1945d1fb45ef.png)
-
+'''
 # Ex 2 :-> (Highpass blackman window Fs=100 and order = 64th) highpass Fc=10Hz
 enter the filter type window Fs order= highpass blackman 100 64 
 enter the highpass frequency fc = 10
