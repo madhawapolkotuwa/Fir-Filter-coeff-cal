@@ -10,9 +10,9 @@
 #   3. Bandpass
 #   4. Bandstop
 ##################################################################################################
-# Window types
+# Window types //Reference (https://en.wikipedia.org/wiki/Window_function)
 ##################################################################################################
-#   1. Rectangular    //Reference (https://en.wikipedia.org/wiki/Window_function)
+#   1. Rectangular    
 #   2. Triangular                 
 #   3. Welch                      
 #   4. Sine                       
@@ -61,4 +61,5 @@
 
 #####################################################################################################
 # Outputs
+#####################################################################################################
 # .txt files & .png files for coefficients & impulse response
