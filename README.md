@@ -27,10 +27,11 @@
 ###################################################################################################
 # Open FIR_filter_coeff.exe for windows users 
 ###################################################################################################
-# Linux users open the terminal in files location and type (compiled C program with math.h library)
+# Linux users open the terminal in files location and type 
 ```
  ./FIR_fiter_coeff_cal
- (if gcc compliler didi not install on your linux os
+ (compiled C program with math.h library)
+ if gcc compliler didi not install on your linux os
  first install the GCC Compiler 
  Perform the steps below to install the GCC Compiler linux:- $ sudo apt install build-essential
                                                              $ sudo apt-get install manpages-dev                                                          
