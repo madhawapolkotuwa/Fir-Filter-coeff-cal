@@ -39,8 +39,9 @@
 ```
 enter the filter type window Fs order= lowpass hann 100 128
 !enter the lowpass frequency  fc = 2.2
-![Lowpass](https://user-images.githubusercontent.com/32560614/225819842-d453a4bf-d19d-478c-80d2-1945d1fb45ef.png)
 ```
+![Lowpass](https://user-images.githubusercontent.com/32560614/225819842-d453a4bf-d19d-478c-80d2-1945d1fb45ef.png)
+
 # Ex 2 :-> (Highpass blackman window Fs=100 and order = 64th) highpass Fc=10Hz
 ```
 enter the filter type window Fs order= highpass blackman 100 64 
@@ -51,15 +52,17 @@ enter the highpass frequency fc = 10
 ```
 enter the filter type window Fs order= bandpass blackmannuttall 200 84 
 enter the frequncy passband fc1 fc2 = 2.2 4.4 
-![Bandpass](https://user-images.githubusercontent.com/32560614/225820876-87d6a864-7a64-43ab-adae-135def1cbe0f.png)
 ```
+![Bandpass](https://user-images.githubusercontent.com/32560614/225820876-87d6a864-7a64-43ab-adae-135def1cbe0f.png)
+
 # Ex 4 :-> (Bandstop kiser window Fs=100 and order = 64th) stopband [fc1  fc2] = 10Hz - 15Hz stop band attenuation 60dB
 ```
 enter the filter type window Fs order= bandstop kiser 100 64
 enter the frequncy stopband fc1 fc2 = 10 15 
 Enter stop-band attenuation [dB] = 60
-![Bandstop](https://user-images.githubusercontent.com/32560614/225821146-15b02459-7f95-44bc-9850-a3f3a64cd439.png)
 ```
+![Bandstop](https://user-images.githubusercontent.com/32560614/225821146-15b02459-7f95-44bc-9850-a3f3a64cd439.png)
+
 #####################################################################################################
 # Outputs
 #####################################################################################################
